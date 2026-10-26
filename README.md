@@ -3,7 +3,7 @@
 > **Autor:**  Daniel Gallego Badía
 > **Módulo 6:** Vulnerabilidades - Actividad: El Arsenal de un Analista  
 > **Herramienta:** Trivy (Aqua Security) 
-> **Objetivo del recurso:** Proporcionar una guía operativa, rápida y de nivel profesional sobre el uso avanzado de Trivy para la identificación, análisis y gestión de vulnerabilidades en entornos modernos basados en contenedores, código e infraestructura como código (IaC).
+> **Objetivo del recurso:** Proporcionar una guía operativa y rápida sobre el uso avanzado de Trivy para la identificación, análisis y gestión de vulnerabilidades en entornos basados en contenedores, código e infraestructura como código (IaC).
 
 ---
 
@@ -11,7 +11,7 @@
 
 En el análisis de vulnerabilidades moderno, la superficie de ataque ya no se limita a sistemas operativos tradicionales expuestos en red, sino que abarca artefactos de software, imágenes de contenedores, dependencias de terceros y configuraciones de infraestructura en la nube. **Trivy** se ha consolidado como una herramienta imprescindible en el arsenal del analista debido a sus características principales:
 
-* **Versatilidad analítica:** Capaz de escanear imágenes de contenedores, sistemas de archivos locales, repositorios de código fuente, configuraciones de IaC (Terraform, Kubernetes, Dockerfile) y dependencias de lenguajes (SBOM).
+* **Versatilidad analítica:** Capaz de escanear imágenes de contenedores, sistemas de archivos locales, repositorios de código fuente, configuraciones de IaC (Kubernetes, Dockerfile,...) y dependencias de lenguajes (SBOM).
 * **Velocidad y precisión:** Diseñada para integrarse en flujos de trabajo rápidos (CI/CD) sin comprometer la profundidad de la detección de CVEs.
 * **Bases de datos centralizadas:** Consulta múltiples fuentes de vulnerabilidades actualizadas en tiempo real (NVD, GitHub Advisories, distros Linux, etc.).
 

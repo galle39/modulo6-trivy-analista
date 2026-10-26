@@ -38,8 +38,8 @@ trivy image --skip-db-update my-custom-app:v1
 trivy image --scanners vuln,config,secret node:16
 ```
 
-### 2.2. Escaneo de Sistemas de Archivos (Filesystem) y Repositorios
-Permite auditar el código fuente de un proyecto o un directorio local en busca de fallos de dependencias (Supply Chain Security).
+### 2.2. Escaneo de Sistemas de Archivos y Repositorios
+Permite auditar el código fuente de un proyecto o un directorio local en busca de fallos de dependencias.
 
 ```bash
 # Analizar el directorio actual en busca de vulnerabilidades en dependencias (npm, pip, composer, maven, etc.)

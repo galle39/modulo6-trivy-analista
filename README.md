@@ -1,0 +1,1 @@
+# Trivy - Arsenal del Analista
